@@ -57,22 +57,14 @@
         <MenuItem x:Name="ShowLogs" />
         <Separator />
         <MenuItem x:Name="More">
+            
             <MenuItem x:Name="GlobalSettings" />
             <MenuItem x:Name="DnsSettings" />
             <MenuItem x:Name="PortSettings" />
             <MenuItem x:Name="GenQrCode" />
-            <Separator />
-            <MenuItem x:Name="OpenWiki" />
-            <MenuItem x:Name="Feedback" />
-            <Separator />
-            <MenuItem x:Name="Update">
-                <MenuItem x:Name="CheckUpdate" />
-                <MenuItem x:Name="UpdateAvailable" Visibility="Collapsed" />
-                <Separator />
-                <MenuItem x:Name="AutoCheckUpdate" />
-                <MenuItem x:Name="AllowPreRelease" />
-            </MenuItem>
+            
         </MenuItem>
+        <MenuItem Name="XinHaoStudioSSR7" />
         <MenuItem x:Name="Quit" />
     </ContextMenu>
 </ResourceDictionary>
